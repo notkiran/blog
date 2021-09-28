@@ -4,14 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is an example page that uses the `page` layout.
-
-Visit the [Homepage]({{ site.baseurl | prepend: site.url }}/) for documentation on installation, setup, how-tos, features, and more about this Jekyll theme.
+Visit the [Homepage](https://kirang.me) for more information. Vist [Blog](https://blog.kirang/me/) for my blog posts related to Web Development.
 
 ---
 
-Email us at [hi@oinam.com](mailto:hi@oinam.com?subject=Oinam Jekyll).\
-Find us at
-[oinam.com](https://oinam.com),
-[Twitter](https://twitter.com/oinam),
-[Instagram](https://www.instagram.com/oinam/).
+Email me at [mail@kirang.me](mailto:mail@kirang.me?subject=Hi).\
+Find me at
+[kirang.me](https://kirang.me),
+[Twitter](https://twitter.com/_kirang),
+[Instagram](https://www.instagram.com/_kirang.g/).
