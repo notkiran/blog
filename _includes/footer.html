@@ -4,17 +4,13 @@
     <div>
       <p>
         {% if site.footer.custom != false %}
-          <small>{{ site.footer_custom }}</small>
+        <small>{{ site.footer_custom }}</small>
         {% else %}
-          <small>Copyright © {{ "now" | date: "%Y" }} {{ site.title }}.</small>
-        {% endif %}
-        {% if site.footer.credit != false %}
-          
-        {% endif %}
+        <small>Copyright © {{ "now" | date: "%Y" }} {{ site.title }}.</small>
+        {% endif %} {% if site.footer.credit != false %} {% endif %}
       </p>
     </div>
-    {% if site.layout.theme_switch != false %}
-      {% include appearance.html %}
-    {% endif %}
+    {% if site.layout.theme_switch != false %} {% include appearance.html %} {%
+    endif %}
   </div>
 </footer>
