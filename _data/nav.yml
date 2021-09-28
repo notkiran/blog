@@ -1,8 +1,8 @@
-- title: About
-  url: /about/
+- title: Home
+  url: https://kirang.me/
 
 - title: Blog
   url: /blog/
 
-- title: Styleguide
-  url: /styleguide/
+- title: About
+  url: /about/
