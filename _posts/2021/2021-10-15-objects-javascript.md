@@ -16,13 +16,15 @@ All cars have the same properties, but the property values differ from car to ca
 
 Let’s have an example of my favorite merc car and list out its properties(Features):
 
-> Make: Mercedes
-> Model: C-Class
-> Color: White
-> Fuel: Diesel
-> Weight: 850kg
-> Mileage: 8Kmpl
-> Rating: 4.5
+```
+Make: Mercedes
+Model: C-Class
+Color: White
+Fuel: Diesel
+Weight: 850kg
+Mileage: 8Kmpl
+Rating: 4.5
+```
 
 Taking the above as reference, lets create a object.
 
