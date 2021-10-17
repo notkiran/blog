@@ -19,6 +19,7 @@ When the browser begins to receive the HTML data of a page over the network, it 
 > The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web.
 
 The first step of this parsing process is to break down the HTML into tokens that represent start tags, end tags, and their contents. From that it can construct the DOM.
+<img src="https://raw.githubusercontent.com/notkiran/blog/master/img/blog/21_09_18/step-1.webp" alt="step-1">
 
 ## 2. Fetch external resources
 
@@ -62,3 +63,4 @@ Now that we have a complete render tree the browser knows what to render, but no
 Once that is complete, the final step is to take that layout information and paint the pixels to the screen.
 
 And voila! After all that, we have a **fully rendered web page!**
+<img src="https://raw.githubusercontent.com/notkiran/blog/master/img/blog/21_09_18/step-6.webp" alt="step-6">
