@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Difference between Browser JS vs Nodejs
+title: Difference between Browser JS vs Node.js
 ---
 
 1. JavaScript :
