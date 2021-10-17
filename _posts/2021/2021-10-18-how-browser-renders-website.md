@@ -28,16 +28,20 @@ JavaScript files are a little different - by default they block parsing of the H
 
 `defer`means that the execution of the file will be delayed until the parsing of the document is complete. If multiple files have the defer attribute, they will be executed in the order that they were discovered in the HTML.
 
-`<script type="text/javascript" src="script.js" defer>`
+```
+<script type="text/javascript" src="script.js" defer>
+```
+
 `async` means that the file will be executed as soon as it loads, which could be during or after the parsing process, and therefore the order in which async scripts are executed cannot be guaranteed.
 
-`<script type="text/javascript" src="script.js" async>`
+```
+<script type="text/javascript" src="script.js" async>
+```
 
 ## 3. Parse the CSS and build the CSSOM
 
-> The CSS Object Model (CSSOM) is a map of all CSS selectors and relevant properties for each selector in the form of a tree, with a root node, sibling, descendant, child, and other relationship. The CSSOM is very similar to the Document Object Model (DOM). Both of them are part of the critical rendering path which is a series of steps that must happen to properly render a website.`
-
-> The CSSOM, together with the DOM, to build the render tree, which is in turn used by the browser to layout and paint the web page.`
+> The CSS Object Model (CSSOM) is a map of all CSS selectors and relevant properties for each selector in the form of a tree, with a root node, sibling, descendant, child, and other relationship. The CSSOM is very similar to the Document Object Model (DOM). Both of them are part of the critical rendering path which is a series of steps that must happen to properly render a website.
+> The CSSOM, together with the DOM, to build the render tree, which is in turn used by the browser to layout and paint the web page.
 
 Similar to HTML files and the DOM, when CSS files are loaded they must be parsed and converted to a tree - this time the CSSOM. It describes all of the CSS selectors on the page, their hierarchy and their properties.
 
