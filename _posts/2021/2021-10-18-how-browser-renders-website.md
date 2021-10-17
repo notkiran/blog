@@ -49,6 +49,16 @@ Where the CSSOM differs to the DOM is that it cannot be built incrementally, as 
 
 ## 4. Execute the JavaScript
 
+How and when the JavaScript resources are loaded will determine exactly when this happens, but at some point they will be parsed, compiled and executed. Different browsers have different JavaScript engines to perform this task. Parsing JavaScript can be an expensive process in terms of a computer's resources, more-so than other types of resource, hence why optimising it is so important in achieving good performance.
+
 ## 5. Merge DOM and CSSOM to construct the render tree
 
+The render tree is a combination of the DOM and CSSOM, and represents everything that will be rendered onto the page. That does not necessarily mean all nodes in the render tree will be **visually present**, for example nodes with styles of `opacity: 0` or `visibility: hidden` will be included, and may still be read by a screen reader etc., whereas those set to `display: none` will not be included. Additionally, tags such as `<head>` that do not contain any visual information will always be omitted.
+
 ## 6. Calculate layout and paint
+
+Now that we have a complete render tree the browser knows what to render, but not where to render it. Therefore the layout of the page (i.e. every node's position and size) must be calculated. The rendering engine traverses the render tree, starting at the top and working down, calculating the coordinates at which each node should be displayed.
+
+Once that is complete, the final step is to take that layout information and paint the pixels to the screen.
+
+And voila! After all that, we have a **fully rendered web page!**
