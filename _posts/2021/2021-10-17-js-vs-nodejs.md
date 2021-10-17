@@ -11,7 +11,7 @@ title: Difference between Browser JS vs Nodejs
 
 Difference between Nodejs and JavaScript :
 
-| Sl.no | Javascript                                                                                      | NodeJS                                                                                         |
+| Sl.No | Javascript                                                                                      | NodeJS                                                                                         |
 | ----- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | 1.    | Javascript is a programming language that is used for writing scripts on the website.           | NodeJS is a Javascript runtime environment.                                                    |
 | 2.    | Javascript can only be run in the browsers.                                                     | We can run Javascript outside the browser with the help of NodeJS.                             |
