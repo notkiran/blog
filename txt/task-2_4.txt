@@ -1,0 +1,26 @@
+1. typeof(1)
+- Output: number
+
+2. typeof(1.1)
+- Output: number
+
+3. typeof('1.1')
+- Output: string
+
+4. typeof(true)
+- Output: boolean
+
+5. typeof(null)
+- Output: object
+
+6. typeof(undefined)
+- Output: undefined
+
+7. typeof([])
+- Output: object
+
+8. typeof({})
+- Output: object
+
+9. typeof(NaN)
+- Output: number
